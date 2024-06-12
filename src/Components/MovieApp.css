@@ -1,0 +1,129 @@
+.movie_app {
+    background: #090d28;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.app_heading h1 {
+    color: #a77d15;
+}
+
+.app_heading {
+    padding: 10px 0;
+}
+
+
+.searchBar input {
+    outline: none;
+    border: 0;
+    background: none;
+}
+
+.searchBar .searchbtnicon {
+    outline: none;
+    /* position: absolute; */
+    right: 0;
+    width: 52px;
+    height: 100%;
+    background: transparent;
+    color: white;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+.searchBar {
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.searchBar input {
+    /* outline: none; */
+    border: 0;
+    background: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    color: white;
+}
+
+.searchBar .searchbtnicon svg {
+    height: 100%;
+    width: 100%;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.searchMovie {
+    margin-top: 20px;
+}
+
+.movieCardList {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.cardimg img {
+    width: 100%;
+    height: auto;
+}
+
+.movieCard {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.movieCard .cardimg img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.cardTitle {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 16px 10px;
+   
+}
+.cardItem {
+    position: relative;
+}
+
+.cardTitle p {
+    color: white;
+}
+
+
+.titleOpecity {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+
+    background: white;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+
+.serchText{
+    color: white;
+}
